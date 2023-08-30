@@ -13,13 +13,14 @@ public class ImagemManual
 {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="")
+    private Integer id;
 
     @Column(name="")
     private String link;
-    @Column(name="")
-    private  int imagem;
-    @JoinColumn(name="")
+
     @ManyToOne
+    @JoinColumn(name="")
     private CapituloManual capituloManual;
 
 }

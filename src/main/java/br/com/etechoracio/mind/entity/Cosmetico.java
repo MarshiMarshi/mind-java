@@ -1,6 +1,6 @@
 package br.com.etechoracio.mind.entity;
 
-import br.com.etechoracio.mind.entity.enums.TipoCosmetico;
+import br.com.etechoracio.mind.enums.TipoCosmetico;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

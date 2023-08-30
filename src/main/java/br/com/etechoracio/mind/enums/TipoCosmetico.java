@@ -1,4 +1,4 @@
-package br.com.etechoracio.mind.entity.enums;
+package br.com.etechoracio.mind.enums;
 
 public enum TipoCosmetico {
 }

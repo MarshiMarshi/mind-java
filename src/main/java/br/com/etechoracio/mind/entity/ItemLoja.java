@@ -13,10 +13,10 @@ public class ItemLoja {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="")
-    private int id;
+    private Integer id;
 
     @Column(name="")
-    private int preco;
+    private Integer preco;
 
     @Column(name="")
     private String LinkImagem;

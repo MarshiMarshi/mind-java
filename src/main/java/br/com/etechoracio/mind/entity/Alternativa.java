@@ -13,11 +13,12 @@ public class Alternativa
 {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "")
+    private Integer id;
 
     @Column(name = "")
-    private int id;
-    @Column(name = "")
-    private int certo;
+    private Integer certo;
+
     @Column(name = "")
     private String texto;
 
