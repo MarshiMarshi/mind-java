@@ -7,20 +7,20 @@ import org.yaml.snakeyaml.events.Event;
 
 @Getter
 @Setter
-@Entity
-@Table(name = "")
+//@Entity
+//@Table(name = "")
 public class ImagemManual
 {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="")
+    //@Id
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@Column(name="")
     private Integer id;
 
-    @Column(name="")
+    //@Column(name="")
     private String link;
 
-    @ManyToOne
-    @JoinColumn(name="")
+    //@ManyToOne
+    //@JoinColumn(name="")
     private CapituloManual capituloManual;
 
 }

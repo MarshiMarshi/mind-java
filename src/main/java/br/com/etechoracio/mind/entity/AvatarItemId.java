@@ -8,7 +8,7 @@ import java.io.Serializable;
 
 @Getter
 @Setter
-@Embeddable
+//@Embeddable
 public class AvatarItemId implements Serializable {
 
     private Integer idUsuario;

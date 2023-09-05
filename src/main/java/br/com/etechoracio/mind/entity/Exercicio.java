@@ -7,24 +7,24 @@ import org.yaml.snakeyaml.events.Event;
 
 @Getter
 @Setter
-@Entity
-@Table(name = "")
+//@Entity
+//@Table(name = "")
 public class Exercicio
 {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="")
+    //@Id
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@Column(name="")
     private Integer id;
 
-    @Column(name="")
+    //@Column(name="")
     private String enunciado;
 
-    @Column(name="")
+    //@Column(name="")
     private Integer coins;
 
-    @Column(name="")
+    //@Column(name="")
     private String linkMidia;
 
-    @Column(name="", columnDefinition="bit(1)")
+    //@Column(name="", columnDefinition="bit(1)")
     private Boolean rascunho;
 }

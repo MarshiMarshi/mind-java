@@ -6,18 +6,18 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
-@Table(name="")
+//@Entity
+//@Table(name="")
 public class ItemLoja {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name="")
+    //@Id
+    //@GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@Column(name="")
     private Integer id;
 
-    @Column(name="")
+    //@Column(name="")
     private Integer preco;
 
-    @Column(name="")
+    //@Column(name="")
     private String LinkImagem;
 }

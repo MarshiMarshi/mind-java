@@ -8,10 +8,10 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
-@Table(name="")
+//@Entity
+//@Table(name="")
 public class Tema extends ItemLoja {
 
-    @Column(name="")
+    //@Column(name="")
     private String cor;
 }

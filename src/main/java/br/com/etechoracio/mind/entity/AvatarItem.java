@@ -8,26 +8,26 @@ import java.time.LocalDate;
 
 @Getter
 @Setter
-@Entity
-@Table(name="")
+//@Entity
+//@Table(name="")
 public class AvatarItem {
 
-    @EmbeddedId
+    //@EmbeddedId
     private AvatarItemId id = new AvatarItemId();
 
-    @ManyToOne
-    @MapsId
-    @JoinColumn(name="")
+    //@ManyToOne
+    //@MapsId
+    //@JoinColumn(name="")
     private Usuario usuario;
 
-    @ManyToOne
-    @MapsId
-    @JoinColumn(name="")
+    //@ManyToOne
+    //@MapsId
+    //@JoinColumn(name="")
     private ItemLoja itemLoja;
 
-    @Column(name="")
+    //@Column(name="")
     private Boolean emUso;
 
-    @Column(name="")
+    //@Column(name="")
     private LocalDate dataCompra;
 }

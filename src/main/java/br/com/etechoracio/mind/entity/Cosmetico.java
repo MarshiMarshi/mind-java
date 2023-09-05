@@ -7,11 +7,11 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
-@Table(name="")
+//@Entity
+//@Table(name="")
 public class Cosmetico extends ItemLoja {
 
-    @Column(name="")
-    @Enumerated(value = EnumType.STRING)
+    //@Column(name="")
+    //@Enumerated(value = EnumType.STRING)
     private TipoCosmetico tipoCosmetico;
 }
